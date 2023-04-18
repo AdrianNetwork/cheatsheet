@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<!-- Use this code for new HTML list sections
+ <div class="indent">
+    <h3>TEST TEST</h3>
+      <ul>
+        <li><span>&lt;&gt;</span> : </li>
+      </ul>
+  </div>
+-->
+<html>
+  <head>
+    <title> Adrian's Cheatsheet: </title>
+    <link href="./styles.css" type="text/css" rel="stylesheet">
+  </head>
+  <header>
+    <h1>Adrian's Cheatsheet</h1>
+    <nav>
+      <ul>
+        <li><a href="#html">HTML</a></li>
+        <li><a href="#css">CSS</a></li>
+        <li><a href="#commandline">Command Line</a></li>
+      </ul>
+    </nav>
+  </header>
+  <body>
+  <main>
+    <section>
+      <h2 id="html">HTML</h2>
+      <ul>
+        <li><a href="#opentags">Open Tags</a></li>
+        <li><a href="#closedtags">Closed Tags</a></li>
+        <li><a href="#semanticstags">Semantics Tags</a></li>
+        <li><a href="#semanticstags">Attributes</a></li>
+      </ul>  
+      <div class="indent">
+        <h3 id="opentags">Open Tags</h3>
+        <ul>
+          <p>Basic content</p>
+          <li><span>&lt;h1&gt;</span> : This can be set 1-6 and is for headings</li>
+          <li><span>&lt;p&gt;</span> : This is for Paragraph</li>
+          <li><span>&lt;u&gt;</span> : Underline text.</li>
+          <li><span>&lt;button&gt;</span> : For a Button</li>
+          <li><span>&lt;a href="content.jpg" title='the descirption of link'&gt;</span> : Anchor tag for links</li>
+          <ul><li> The link text goes between the tags.</li></ul>
+          <li><span>&lt;head&gt;</span> : This is the beginning of all HTML which includes links and title tags</li>
+          <li><span>&lt;body&gt;</span> : This is where everything else goes.</li>
+          <li><span>&lt;div&gt;</span> : For different sections, but for content semantic tags should be used</li>
+          <li><span>&lt;script&gt;</span> :  For JavaScript</li>
+          <li><span>&lt;span&gt;</span> : For special text, like the code text <span>here</span>.</li>
+          <li><span>&lt;video&gt;</span> :  Use src attribute, and Control. No alt attribute, instead you put the description between the tags</li>
+          <li><span>&lt;audio&gt;</span> : Used in the same way as video</li>
+          <p>Lists</p>
+          <li><span>&lt;ul&gt;</span> : Unordered List</li>
+          <li><span>&lt;ol&gt;</span> : Ordered list (with numbers)</li>
+          <li><span>&lt;li&gt;</span> : list item. Add anohter list to make a sublist.</li>
+          <p>Tables</p>
+              <li><span>&lt;table&gt;</span> : used to define a table</li>
+             <li><span>&lt;thead&gt;</span> : used to group the header content in a table</li>
+            <li><span>&lt;tbody&gt;</span> : used to group the body content in a table</li>
+            <li><span>&lt;tfoot&gt;</span> : used to group the footer content in a table</li>
+            <li><span>&lt;tr&gt;</span> : used to define a row in a table</li>
+            <li><span>&lt;th&gt;</span> : used to define a header cell in a table</li>
+            <li><span>&lt;td&gt;</span> : used to define a data cell in a table</li>
+            <li><span>colspan</span> : specifies the number of columns a cell should span</li>
+            <li><span>rowspan</span> : specifies the number of rows a cell should span</li>
+        </ul>
+      </div>
+      <div class="indent">
+        <h3 id="closedtags">Closed tags</h3>
+        <ul>
+          <li><span>&lt;!-- [content] --&gt;</span> : This is to add a comment. </li>
+          <li><span>&lt;br&gt;</span> : Line break</li>
+          <li><span>&lt;link&gt;</span> : to connect CSS (see below CSS tags)</li>
+          <li><span>&lt;img src=".filedirectory.image" alt="image description"&gt;</span> :Can be local or external image</li>
+        </ul>
+      </div>
+      <div class="indent">
+        <h3 id="semanticstags">Semantics Tags</h3>
+        <ul>
+          <p>These are used to describe the content of a webpage:</p>
+          <li><span>&lt;header&gt;</span> : For the top portion of website</li>
+          <li><span>&lt;nav&gt;</span> : For the navigation within header.</li>
+          <li><span>&lt;main&gt;</span> : Main section </li>
+          <li><span>&lt;article&gt;</span> : Another type of main </li>
+          <li><span>&lt;section&gt;</span> : Part of the main</li>
+          <li><span>&lt;footer&gt;</span> : Footer </li>
+          <li><span>&lt;main&gt;</span> : Main section </li>
+         <li><span>&lt;aside&gt;</span> : Side section or side comment </li>
+         <li><span>&lt;caption&gt;</span> : Caption </li>
+         <li><span>&lt;figure&gt;</span> : ANy kind of figure </li>
+         <li><span>&lt;Figcaption&gt;</span> : Caption to a figure </li>
+        </ul>
+      </div>
+    <div class="indent">
+      <h3 id="attributes">Attributes</h3>
+        <ul>
+          <li><span>href="./directory.html"</span> : hyperlink refrence. To connect outside content.</li>
+          <li><span>src="./content.jpg"</span> : used for images or whatever</li>
+          <li><span>alt</span> : Alternative text to describe an image</li>
+          <li><span>rel</span> : Related to what? Typically a stylesheet</li>
+          <li><span>ID</span> : used for special # css IDs or for anchor tags</li>
+          <ul><li>For linking internally on a page <span>href="#idtag"</span></li></ul>
+          <li><span>controls</span> : for video</li>
+          <li><span>target="_blank"</span> : Opens a new window with the <span>&lt;a&gt;</span> tag.</li>
+        </ul>
+    </div>
+    </section>
+    <!-- Use this code for new CSS list sections
+          <div class="indent">
+              <h3>TEST TEST</h3>
+                <ul>
+                  <li><span></span> : </li>
+                </ul>
+            </div>
+-->
+    <section>
+      <h2 id="css">CSS</h2>
+      <ul>
+        <li><a href="#connectingtohtml">Connecting to HTML</a></li>
+        <li><a href="#fonts">Fonts</a></li>
+        <li><a href="#boxmodel">Box Model</a></li>
+      </ul>
+      <div class="indent">
+        <h3 id="connectingtohtml">Connecting to HTML</h3>
+          <ul>
+            <li><span>&lt;link href="./styles.css" type="text/css" rel="stylesheet"&gt;</span> : CSS is linked to html by a stylesheet.</li>
+            <li><span>&lt;link&gt;</span> : </li>
+        </ul>
+      </div>
+        <div class="indent">
+        <h3 id="fonts">Fonts</h3>
+          <ul>
+            <li><span>&lt;@fontface {DETAILS}&gt;</span> : This is set an uncommon font.</li>
+              <ul>
+                <li><a href="https://chat.openai.com/" title="You cheater" target="_blank"> Ask AI for help if you need it.</a></li>
+                <li><a href="https://fonts.google.com/" title="this gives you code" target="_blank">Google Fonts</a></li>
+                <li><a href="https://fonts.adobe.com/" title="root for the underdog" target="_blank">Adobe Fonts</a></li>
+              </ul>
+              
+            <li><span>font-family:</span> : Type of font</li>
+            <li><span>font-size</span> : in px or em or wahtever</li>
+            <li><span>font-weight</span> : Bold, normal, lighter 100-900</li>
+            <li><span>font-style</span> : italics, oblique (slanted)</li>
+            <li><span>font-decoration</span> : underline, overline, line-through, blink</li>
+            <li><span>text-transform</span> : uppercase, lowercase</li>
+            <li><span>line-height</span> : 1.4 would be 1.4x text thickness</li>
+            <li><span>word-spacing</span> : in px or em or wahtever</li>
+            <li><span>letter-space</span> : in px or em or wahtever</li>
+            <li><span>text-align</span> : left, right, center, or justify</li>
+          </ul>
+      </div>
+                <div class="indent">
+              <h3 id="boxmodel">Box Model</h3>
+                <ul><li><span>display:</span> : allows you to change the display of an element</li>
+                  <li><span>block;</span> : creates a block-level element .</li>
+                   <li><span>inline;</span> : creates an inline-level element.</li>
+                  <li><span>inline-block;</span> : Combination of the other two.</li>
+                 <li><span>none;</span> : hides the element and removes it from the document flow.</li>
+                  <li><span>flex;</span> : creates a flexible container that allows its items to be laid out in any direction and easily re-ordered.</li>
+                  <li><span>grid;</span> : creates a grid container that allows its items to be laid out in rows and columns.</li>
+                  <li><span>width</span> : the width of the content box</li>
+                  <li><span>height</span> : the height of the content box</li>
+                  <li><span>padding</span> : the space between content and border</li>
+                  <li><span>border</span> : the border around the element</li>
+                  <li><span>margin</span> : the space outside the border</li>
+                  </ul>
+            </div>
+    </section>
+
+
+
+    <section>
+      <h2 id="commandline">Command Line</h2>
+      <ul>
+        <li><a href="#foldernavigation">Folder Navigation</a></li>
+      </ul>
+       <div class="indent">
+       <h3 id="foldernavigation">Folder Navigation</h3>
+         <ul>
+           <li><span>ls</span> : lists</li>
+           <li><span>pwd</span> : print working directory</li>
+           <li><span>cd</span> : change directory</li>
+           <li><span>cd ..</span> : change directory 1 up</li>
+           <li><span>cd ../..</span> : change directory 2 up</li>
+           <li><span>cd ../../..</span> : change directory 3 up and so on</li>
+           <li><span>cd ../[diretory]</span> : change directory up and over</li>
+           <li><span>touch [filename.txt]</span> : makefile of any type</li>
+           <li><span>rm</span> : remove file</li>
+           <li><span>mkdir [directory]</span> : make new directory</li>
+           <li><span>rmdir [directory]</span> : remove directory</li>
+           <li><span>mv [directory/file] [target directory]</span> : move file or folder</li>
+         </ul>
+  </div>
+    </section>
+  </main>
+  <footer>
+<p><small>Copyright: Adrian Abascal Lac MSAOM - 2023</small></p>
+  </footer>
+  </body>
+</html>
