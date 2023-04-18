@@ -1,0 +1,96 @@
+ul li span {
+  font-weight: normal;
+  background-color: #eae9ed;
+    font-family: Monaco,Menlo,Ubuntu Mono,Droid Sans Mono,Consolas,monospace;
+    font-size: .8em;
+}
+
+body {
+  background-color: darkblue;
+}
+header {
+  display: flex;
+  background-color: lightgreen;
+  align-items: center;
+  padding: 0px;
+  border: 2px solid black;
+  font-family: sans-serif;
+}
+header h1{
+  margin: 0;
+  font-weight: 550;
+}
+nav {
+  display: flex;
+  justify-content: center; 
+  background-color: lightgreen; 
+}
+nav ul {
+  list-style: none; /* Removes bullet points */
+  display: flex; /* Makes list items flow horizontally */
+}
+nav ul li {
+  font-size: 1em;
+  margin-right: 20px; /* Adds spacing between list items */
+}
+nav a:link,
+nav a:visited,
+nav a:hover,
+nav a:active {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+section {
+  border: 2px solid darkblue;
+  margin: 5px 0px;
+  padding: 5px;
+  background-color: beige;
+}
+section h2{
+  margin: 0px;
+}
+section ul {
+  padding-left: 30px;
+  list-style: none;
+  margin-top: 10px;
+}
+div {
+  background-color: white;
+}
+div ul p {
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  text-decoration: underline;
+  margin-left: -20px;
+  text-transform: uppercase;
+}
+div ul {
+  margin-left: 30px;
+  padding-top: 1px;
+  padding-bottom: 5px;
+  margin-top: 1px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+  font-family: monospace;
+}
+.indent {
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  border: 1px solid;
+  padding-top: 0px;
+  background: lightblue;
+  
+}
+.indent h3 {
+  margin: 3px 5px 3px 5px;
+}
+
+footer {
+  text-align: center;
+  font-family: monospace;
+  color: white;
+  background-color: darkblue;
+}
